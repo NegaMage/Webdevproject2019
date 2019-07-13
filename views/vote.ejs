@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voting page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body bgcolor="#000000f">
+	<div class="jumbotron">
+		<h1>This is the voting page.</h1>
+		<h3>Participants can vote to choose their favorite Starter Pokemon.</h3>
+
+	</div>
+	<div class="row">
+		<div class="col-sm-3">
+			<form class="form-inline" action="vote0" method="POST">
+			<button>Bulbasaur!</button>
+			<img src = "https://cdn.bulbagarden.net/upload/e/ec/001MS.png" alt = "Bulbasaur" />
+			<img src = "https://cdn.bulbagarden.net/upload/6/6b/002MS.png" alt =  "Ivysaur"/>
+			<img src = "https://cdn.bulbagarden.net/upload/d/df/003MS.png" alt = "Venusaur"/>
+			</form>
+		</div>
+		<div class="col-sm-3">
+			<form class="form-inline" action="vote1" method="POST">
+			<button>Charmander!</button>
+			<img src = "https://cdn.bulbagarden.net/upload/b/bb/004MS.png" alt = "Charmander" />
+			<img src = "https://cdn.bulbagarden.net/upload/d/dc/005MS.png" alt = "Charmeleon" />
+			<img src = "https://cdn.bulbagarden.net/upload/0/01/006MS.png" alt = "Charizard" />
+			</form>
+		</div>
+		<div class="col-sm-3">
+			<form class="form-inline" action="vote2" method="POST">
+			<button>Squirtle!</button>
+			<img src = "https://cdn.bulbagarden.net/upload/9/92/007MS.png" alt = "Squirtle" />
+			<img src = "https://cdn.bulbagarden.net/upload/f/f3/008MS.png" alt = "Wartortle" />
+			<img src = "https://cdn.bulbagarden.net/upload/c/cb/009MS.png" alt = "Blastoise" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

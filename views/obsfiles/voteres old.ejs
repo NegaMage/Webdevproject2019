@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voting results!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="jumbotron">
+		<h1>The results are in!</h1>
+	</div>
+
+
+<% for(var i=0;i<listo.length;i++){ %>
+	<%= listo[i].class%> has been chosen by <%= listo[i].votes%> trainers! <br>
+<% } %>
+	<div class="row">
+		<div class=col>
+		</div>
+		<div class=col>
+			<form action="votepage" method="POST">
+			<button>Vote again</button>
+			<img src = "https://cdn.bulbagarden.net/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png" alt = "pokeball" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>
