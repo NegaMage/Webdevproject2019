@@ -1,4 +1,0 @@
-This report is submitted for completion of the Summer Webdev class conducted by IET, NITK Surathkal.
-I'd like to thank the mentors for their continued enthusiasm and support throughout this course. The assignments were interesting, and the last assignment took the cake. I could rely on the mentors for their help through and through, for which I am thankful. I learnt about HTML, css, bootstrap, nodejs, and Mongodb. The resources given were concise and useful. This entire program has made me capable to undertake larger projects, and I am confident I can tackle complicated tasks.
-To all the mentors I've annoyed, I'm sorry, and thanks for sticking with me. You guys have been great. 
-Thank you.
